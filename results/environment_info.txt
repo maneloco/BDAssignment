@@ -1,0 +1,33 @@
+=== Hardware & Software Environment Specification ===
+Timestamp: 2026-10-14T11:33:13+01:00
+
+--- OS & Kernel ---
+Linux manx-arch 7.2.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 21 Sep 2026 18:51:14 +0000 x86_64 GNU/Linux
+
+--- CPU Topology ---
+CPU(s):                                  16
+On-line CPU(s) list:                     0-15
+Model name:                              12th Gen Intel(R) Core(TM) i5-12500H
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+CPU(s) scaling MHz:                      43%
+CPU max MHz:                             4500.0000
+CPU min MHz:                             400.0000
+L1d cache:                               448 KiB (12 instances)
+L2 cache:                                9 MiB (6 instances)
+L3 cache:                                18 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-15
+
+--- RAM ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       4.4Gi       8.1Gi       997Mi       4.4Gi        10Gi
+Swap:             0B          0B          0B
+
+--- Toolchains & Runtimes ---
+gcc (GCC) 16.2.1 20260810
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode, sharing)
+Python 3.14.7
